@@ -12,7 +12,7 @@
         {
             "vidType": "Temporary",
             "vidPolicy": {
-                "validForInMinutes": 1440,
+                "validForInMinutes": 5,
                 "transactionsAllowed": null,
                 "instancesAllowed": 20,
                 "autoRestoreAllowed": false,

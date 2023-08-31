@@ -30,7 +30,7 @@
             <setBody>
                <simple>${bodyAs(String)}</simple>
             </setBody>
-            <to uri="http://regproc-group2.regproc/registrationprocessor/v1/securezone/notification" />
+            <to uri="http://regproc-group2.idbb-mosip/registrationprocessor/v1/securezone/notification" />
          </otherwise>
       </choice>
    </route>

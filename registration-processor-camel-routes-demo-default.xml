@@ -257,7 +257,7 @@
             <to uri="workflow-cmd://anonymous-profile" />
          </when>
 		 <when>
-			<jsonpath>$.[?(@['isValid'] == true &amp;&amp; @['internalError'] == false)]</jsonpath>
+			<jsonpath suppressExceptions="true">$.[?(@['tags']['BIO_FLOW_STATUS'] != 'PROCESSED'</jsonpath>
             <setProperty propertyName="ADDITIONAL_INFO_PROCESS"><constant>BIO</constant></setProperty>
             <setProperty propertyName="PAUSE_FOR"><constant>1296000</constant></setProperty>
             <to uri="workflow-cmd://pause-and-request-additional-info" />

@@ -2,12 +2,14 @@
   "amr" : {
     "PIN" :  [{ "type": "PIN" }],
     "OTP" :  [{ "type": "OTP" }],
+	"TOTP" :  [{ "type": "TOTP" }],
     "Wallet" :  [{ "type": "WLA" }],
     "L1-bio-device" :  [{ "type": "BIO", "count": 1 }]
   },
   "acr_amr" : {
     "mosip:idp:acr:static-code" : ["PIN"],
     "mosip:idp:acr:generated-code" : ["OTP"],
+	"mosip:idp:acr:time-generated-code" : ["TOTP"],
     "mosip:idp:acr:linked-wallet" : [ "Wallet" ],
     "mosip:idp:acr:biometrics" : [ "L1-bio-device" ]
   }

@@ -1,63 +1,63 @@
 {
   "issuers": [
     {
-      "credential_issuer": "Mosip",
+      "credential_issuer": "MosipOtp",
       "display": [
         {
-          "name": "UIN, VID, AID",
+          "name": "MOSIP National ID",
           "logo": {
             "url": "https://${mosip.api.public.host}/inji/mosip-logo.png",
-            "alt_text": "mosip logo"
+            "alt_text": "a square logo of MOSIP"
           },
           "title": "Download MOSIP Credentials via OTP",
           "description":"Download credentials by providing UIN, VID or AID",
           "language": "en"
         },
         {
-          "name": "UIN, VID, AID",
+          "name": "الهوية الوطنية MOSIP",
           "logo": {
             "url": "https://${mosip.api.public.host}/inji/mosip-logo.png",
-            "alt_text": "شعار موسيب"
+            "alt_text": "شعار مربع لـ MOSIP"
           },
           "title": "قم بتنزيل بيانات اعتماد MOSIP عبر OTP",
           "description": "قم بتنزيل بيانات الاعتماد من خلال توفير UIN أو VID أو AID",
           "language": "ar"
         },
         {
-          "name": "UIN, VID, AID",
+          "name": "एमओसिप राष्ट्रीय आईडी",
           "logo": {
             "url": "https://${mosip.api.public.host}/inji/mosip-logo.png",
-            "alt_text": "मोसिप लोगो"
+            "alt_text": "MOSIP का एक वर्गाकार लोगो"
           },
           "title": "OTP के माध्यम से MOSIP क्रेडेंशियल डाउनलोड करें",
           "description":"यूआईएन, वीआईडी या एआईडी प्रदान करके क्रेडेंशियल डाउनलोड करें",
           "language": "hi"
         },
         {
-          "name": "UIN, VID, AID",
+          "name": "MOSIP ರಾಷ್ಟ್ರೀಯ ID",
           "logo": {
             "url": "https://${mosip.api.public.host}/inji/mosip-logo.png",
-            "alt_text": "mosip ಲೋಗೋ"
+            "alt_text": "MOSIP ನ ಚದರ ಲೋಗೋ"
           },
           "title": "OTP ಮೂಲಕ MOSIP ರುಜುವಾತುಗಳನ್ನು ಡೌನ್ಲೋಡ್ ಮಾಡಿ",
           "description": "UIN, VID ಅಥವಾ AID ಒದಗಿಸುವ ಮೂಲಕ ರುಜುವಾತುಗಳನ್ನು ಡೌನ್\u200Cಲೋಡ್ ಮಾಡಿ",
           "language": "kn"
         },
         {
-          "name": "UIN, VID, AID",
+          "name": "MOSIP தேசிய ஐடி",
           "logo": {
             "url": "https://${mosip.api.public.host}/inji/mosip-logo.png",
-            "alt_text": "mosip சின்னம்"
+            "alt_text": "MOSIP இன் சதுர லோகோ"
           },
           "title": "OTP வழியாக MOSIP சான்றுகளைப் பதிவிறக்கவும்",
           "description":"UIN, VID அல்லது AID ஐ வழங்குவதன் மூலம் நற்சான்றிதழ்களைப் பதிவிறக்கவும்",
           "language": "ta"
         },
         {
-          "name": "UIN, VID, AID",
+          "name": "MOSIP National ID",
           "logo": {
             "url": "https://${mosip.api.public.host}/inji/mosip-logo.png",
-            "alt_text": "logo ng mosip"
+            "alt_text": "isang parisukat na logo ng MOSIP"
           },
           "title": "I-download ang Mga Kredensyal ng MOSIP sa pamamagitan ng OTP",
           "description":"Mag-download ng mga kredensyal sa pamamagitan ng pagbibigay ng UIN, VID o AID",
@@ -65,326 +65,131 @@
         }
       ],
       "protocol": "OTP",
-      "enabled": "true"
+      "enabled": "${mosip.otp.download.enable}"
     },
     {
-      "credential_issuer": "ESignet",
+      "credential_issuer": "Mosip",
       "display": [
         {
-          "name": "e-Signet",
+          "name": "National Identity Department",
           "logo": {
             "url": "https://${mosip.api.public.host}/inji/mosip-logo.png",
             "alt_text": "mosip-logo"
           },
-          "title": "Download MOSIP Credentials",
-          "description": "Download credentials by providing UIN or VID",
+          "title": "National Identity Department",
+          "description": "Download MOSIP National / Foundational Identity Credential",
           "language": "en"
         },
         {
-          "name": "e-Signet",
+          "name": "دائرة الهوية الوطنية",
           "logo": {
             "url": "https://${mosip.api.public.host}/inji/mosip-logo.png",
             "alt_text": "شعار موسيب"
           },
-          "title": "قم بتنزيل بيانات اعتماد MOSIP",
-          "description": "توفير UIN أو VIDقم بتنزيل بيانات الاعتماد عن طريق" ,
+          "title": "دائرة الهوية الوطنية",
+          "description": "قم بتنزيل بيانات اعتماد الهوية الوطنية / التأسيسية MOSIP",
           "language": "ar"
         },
         {
-          "name": "e-Signet",
+          "name": "राष्ट्रीय पहचान विभाग",
           "logo": {
             "url": "https://${mosip.api.public.host}/inji/mosip-logo.png",
             "alt_text": "मोसिप लोगो"
           },
-          "title": "MOSIP क्रेडेंशियल डाउनलोड करेंं",
-          "description":"यूआईएन या वीआईडी प्रदान करके क्रेडेंशियल डाउनलोड करें",
+          "title": "राष्ट्रीय पहचान विभाग",
+          "description": "MOSIP नेशनल/फाउंडेशनल आइडेंटिटी क्रेडेंशियल डाउनलोड करेंं",
           "language": "hi"
         },
         {
-          "name": "e-Signet",
+          "name": "ರಾಷ್ಟ್ರೀಯ ಗುರುತಿನ ಇಲಾಖೆ",
           "logo": {
             "url": "https://${mosip.api.public.host}/inji/mosip-logo.png",
             "alt_text": "mosip ಲೋಗೋ"
           },
-          "title": "MOSIP ರುಜುವಾತುಗಳನ್ನು ಡೌನ್ಲೋಡ್ ಮಾಡಿ",
-          "description": "UIN ಅಥವಾ VID ಒದಗಿಸುವ ಮೂಲಕ ರುಜುವಾತುಗಳನ್ನು ಡೌನ್ಲೋಡ್ ಮಾಡಿ",
+          "title": "ರಾಷ್ಟ್ರೀಯ ಗುರುತಿನ ಇಲಾಖೆ",
+          "description": "MOSIP ರಾಷ್ಟ್ರೀಯ / ಫೌಂಡೇಶನಲ್ ಐಡೆಂಟಿಟಿ ರುಜುವಾತು ಡೌನ್\u200Cಲೋಡ್ ಮಾಡಿ",
           "language": "kn"
         },
         {
-          "name": "e-Signet",
+          "name": "தேசிய அடையாளத் துறை",
           "logo": {
             "url": "https://${mosip.api.public.host}/inji/mosip-logo.png",
             "alt_text": "mosip லோகோ"
           },
-          "title": "MOSIP சான்றுகளைப் பதிவிறக்கவும்",
-          "description":"UIN அல்லது VIDஐ வழங்குவதன் மூலம் நற்சான்றிதழ்களைப் பதிவிறக்கவும்",
+          "title": "தேசிய அடையாளத் துறை",
+          "description": "MOSIP தேசிய / அடிப்படை அடையாளச் சான்றிதழைப் பதிவிறக்கவும்",
           "language": "ta"
         },
         {
-          "name": "e-Signet",
+          "name": "National Identity Department",
           "logo": {
             "url": "https://${mosip.api.public.host}/inji/mosip-logo.png",
             "alt_text": "logo ng mosip"
           },
-          "title": "I-download ang Mga Kredensyal ng MOSIP",
-          "description":"Mag-download ng mga kredensyal sa pamamagitan ng pagbibigay ng UIN o VID",
+          "title": "National Identity Department",
+          "description": "I-download ang MOSIP National / Foundational Identity Credential",
           "language": "fil"
         }
       ],
       "protocol": "OpenId4VCI",
-      "client_id": "${mimoto.oidc.partner.clientid}",
-      "client_alias": "mpartner-default-mimotooidc",
-      "scopes_supported": ["mosip_identity_vc_ldp"],
-      "additional_headers": { "Accept": "application/json" },
-      ".well-known": "https://${mosip.esignet.host}/.well-known/openid-credential-issuer?version=v11",
+      "client_id": "${mimoto.oidc.mosipid.partner.clientid}",
+      "client_alias": "mpartner-default-test-mosipid",
+      "wellknown_endpoint": "https://${mosip.injicertify.mosipid.host}/v1/certify/issuance/.well-known/openid-credential-issuer",
       "redirect_uri": "io.mosip.residentapp.inji://oauthredirect",
-      "authorization_endpoint": "https://${mosip.esignet.host}/authorize",
-      "authorization_audience": "https://${mosip.esignet.host}/v1/esignet/oauth/v2/token",
-      "token_endpoint": "https://${mosip.api.public.host}/residentmobileapp/get-token/ESignet",
-      "proxy_token_endpoint": "https://${mosip.esignet.host}/v1/esignet/oauth/v2/token",
-      "credential_endpoint": "https://${mosip.esignet.host}/v1/esignet/vci/credential",
-      "credential_type": ["VerifiableCredential", "MOSIPVerifiableCredential"],
-      "credential_audience": "https://${mosip.esignet.host}",
+      "authorization_audience": "https://${mosip.esignet.mosipid.host}/v1/esignet/oauth/v2/token",
+      "token_endpoint": "https://${mosip.api.public.host}/v1/mimoto/get-token/Mosip",
+      "proxy_token_endpoint": "https://${mosip.esignet.mosipid.host}/v1/esignet/oauth/v2/token",
+      "qr_code_type": "OnlineSharing",
       "enabled": "true"
     },
     {
-      "credential_issuer": "Sunbird",
+      "credential_issuer": "StayProtected",
       "display": [
         {
-          "name": "Sunbird RC Insurance Verifiable Credential",
+          "name": "StayProtected Insurance",
           "logo": {
-            "url": "https://sunbird.org/images/sunbird-logo-new.png",
+            "url": "https://raw.githubusercontent.com/tw-mosip/file-server/master/StayProtectedInsurance.png",
             "alt_text": "a square logo of a Sunbird"
           },
           "language": "en",
-          "title": "Download Sunbird Credentials",
-          "description": "Download credentials with your Policy Number"
-        },
-        {
-          "name": "بيانات الاعتماد التي يمكن التحقق منها للتأمين Sunbird RC",
-          "logo": {
-            "url": "https://sunbird.org/images/sunbird-logo-new.png",
-            "alt_text": "شعار مربع لطائر الشمس"
-          },
-          "language": "ar",
-          "title": "قم بتنزيل بيانات اعتماد Sunbird",
-          "description": "قم بتنزيل بيانات الاعتماد باستخدام رقم السياسة الخاص بك"
-        },
-        {
-          "name": "सनबर्ड आरसी बीमा सत्यापन योग्य क्रेडेंशियल",
-          "logo": {
-            "url": "https://sunbird.org/images/sunbird-logo-new.png",
-            "alt_text": "सनबर्ड का एक चौकोर लोगो"
-          },
-          "language": "hi",
-          "title": "सनबर्ड क्रेडेंशियल्स डाउनलोड करेंं",
-          "description": "अपने पॉलिसी नंबर के साथ क्रेडेंशियल डाउनलोड करें"
-        },
-        {
-          "name": "ಸನ್ಬರ್ಡ್ ಆರ್ಸಿ ವಿಮೆ ಪರಿಶೀಲಿಸಬಹುದಾದ ರುಜುವಾತು",
-          "logo": {
-            "url": "https://sunbird.org/images/sunbird-logo-new.png",
-            "alt_text": "ಸನ್ ಬರ್ಡ್ ನ ಚೌಕಾಕಾರದ ಲೋಗೋ"
-          },
-          "language": "kn",
-          "title": "ಸನ್ಬರ್ಡ್ ರುಜುವಾತುಗಳನ್ನು ಡೌನ್ಲೋಡ್ ಮಾಡಿ",
-          "description": "ನಿಮ್ಮ ಪಾಲಿಸಿ ಸಂಖ್ಯೆಯೊಂದಿಗೆ ರುಜುವಾತುಗಳನ್ನು ಡೌನ್ಲೋಡ್ ಮಾಡಿ"
-        },
-        {
-          "name": "Sunbird RC இன்சூரன்ஸ் சரிபார்க்கக்கூடிய நற்சான்றிதழ்",
-          "logo": {
-            "url": "https://sunbird.org/images/sunbird-logo-new.png",
-            "alt_text": "சூரிய பறவையின் சதுர சின்னம்"
-          },
-          "language": "ta",
-          "title": "Sunbird சான்றுகளைப் பதிவிறக்கவும்",
-          "description": "உங்கள் பாலிசி எண்ணுடன் நற்சான்றிதழ்களைப் பதிவிறக்கவும்"
-        },
-        {
-          "name": "Kredensyal na Nabe-verify ng Sunbird RC Insurance",
-          "logo": {
-            "url": "https://sunbird.org/images/sunbird-logo-new.png",
-            "alt_text": "isang parisukat na logo ng isang Sunbird"
-          },
-          "language": "fil",
-          "title": "I-download ang Mga Kredensyal ng Sunbird",
-          "description": "Mag-download ng mga kredensyal gamit ang iyong Numero ng Patakaran"
+          "title": "Download StayProtected Insurance Credentials",
+          "description": "Download insurance credential"
         }
       ],
       "protocol": "OpenId4VCI",
       "client_id": "${mimoto.oidc.sunbird.partner.clientid}",
       "client_alias": "esignet-sunbird-partner",
-      "scopes_supported": ["sunbird_rc_insurance_vc_ldp"],
-      "additional_headers": { "Accept": "application/json" },
-      ".well-known": "https://${mosip.esignet.insurance.host}/.well-known/openid-credential-issuer?version=v11",
+      "wellknown_endpoint": "https://${mosip.injicertify.insurance.host}/v1/certify/issuance/.well-known/openid-credential-issuer",
       "redirect_uri": "io.mosip.residentapp.inji://oauthredirect",
-      "authorization_endpoint": "https://${mosip.esignet.insurance.host}/authorize",
       "authorization_audience": "https://${mosip.esignet.insurance.host}/v1/esignet/oauth/v2/token",
-      "token_endpoint": "https://${mosip.api.public.host}/residentmobileapp/get-token/Sunbird",
+      "token_endpoint": "https://${mosip.api.public.host}/v1/mimoto/get-token/StayProtected",
       "proxy_token_endpoint": "https://${mosip.esignet.insurance.host}/v1/esignet/oauth/v2/token",
-      "credential_endpoint": "https://${mosip.esignet.insurance.host}/v1/esignet/vci/credential",
-      "credential_type": ["VerifiableCredential", "InsuranceCredential"],
-      "credential_audience": "https://${mosip.esignet.insurance.host}",
+      "qr_code_type": "OnlineSharing",
       "enabled": "true"
     },
-{
-      "credential_issuer": "Sunbird140",
-      "display": [
-        {
-          "name": "Sunbird 140 RC Insurance Verifiable Credential",
-          "logo": {
-            "url": "https://sunbird.org/images/sunbird-logo-new.png",
-            "alt_text": "a square logo of a Sunbird"
-          },
-          "language": "en",
-          "title": "Download Sunbird 140 Credentials",
-          "description": "Download credentials with your Policy Number"
-        },
-        {
-          "name": "بيانات الاعتماد التي يمكن التحقق منها للتأمين Sunbird RC",
-          "logo": {
-            "url": "https://sunbird.org/images/sunbird-logo-new.png",
-            "alt_text": "شعار مربع لطائر الشمس"
-          },
-          "language": "ar",
-          "title": "قم بتنزيل بيانات اعتماد Sunbird",
-          "description": "قم بتنزيل بيانات الاعتماد باستخدام رقم السياسة الخاص بك"
-        },
-        {
-          "name": "सनबर्ड आरसी बीमा सत्यापन योग्य क्रेडेंशियल",
-          "logo": {
-            "url": "https://sunbird.org/images/sunbird-logo-new.png",
-            "alt_text": "सनबर्ड का एक चौकोर लोगो"
-          },
-          "language": "hi",
-          "title": "सनबर्ड क्रेडेंशियल्स डाउनलोड करेंं",
-          "description": "अपने पॉलिसी नंबर के साथ क्रेडेंशियल डाउनलोड करें"
-        },
-        {
-          "name": "ಸನ್ಬರ್ಡ್ ಆರ್ಸಿ ವಿಮೆ ಪರಿಶೀಲಿಸಬಹುದಾದ ರುಜುವಾತು",
-          "logo": {
-            "url": "https://sunbird.org/images/sunbird-logo-new.png",
-            "alt_text": "ಸನ್ ಬರ್ಡ್ ನ ಚೌಕಾಕಾರದ ಲೋಗೋ"
-          },
-          "language": "kn",
-          "title": "ಸನ್ಬರ್ಡ್ ರುಜುವಾತುಗಳನ್ನು ಡೌನ್ಲೋಡ್ ಮಾಡಿ",
-          "description": "ನಿಮ್ಮ ಪಾಲಿಸಿ ಸಂಖ್ಯೆಯೊಂದಿಗೆ ರುಜುವಾತುಗಳನ್ನು ಡೌನ್ಲೋಡ್ ಮಾಡಿ"
-        },
-        {
-          "name": "Sunbird RC இன்சூரன்ஸ் சரிபார்க்கக்கூடிய நற்சான்றிதழ்",
-          "logo": {
-            "url": "https://sunbird.org/images/sunbird-logo-new.png",
-            "alt_text": "சூரிய பறவையின் சதுர சின்னம்"
-          },
-          "language": "ta",
-          "title": "Sunbird சான்றுகளைப் பதிவிறக்கவும்",
-          "description": "உங்கள் பாலிசி எண்ணுடன் நற்சான்றிதழ்களைப் பதிவிறக்கவும்"
-        },
-        {
-          "name": "Kredensyal na Nabe-verify ng Sunbird RC Insurance",
-          "logo": {
-            "url": "https://sunbird.org/images/sunbird-logo-new.png",
-            "alt_text": "isang parisukat na logo ng isang Sunbird"
-          },
-          "language": "fil",
-          "title": "I-download ang Mga Kredensyal ng Sunbird",
-          "description": "Mag-download ng mga kredensyal gamit ang iyong Numero ng Patakaran"
-        }
-      ],
-      "protocol": "OpenId4VCI",
-      "client_id": "esignet-sunbird-140-partner",
-      "client_alias": "esignet-sunbird-140-partner",
-      "scopes_supported": ["sunbird_rc_insurance_vc_ldp"],
-      "additional_headers": { "Accept": "application/json" },
-      ".well-known": "https://esignet-140.qa-inji.mosip.net/.well-known/openid-credential-issuer?version=v11",
-      "redirect_uri": "io.mosip.residentapp.inji://oauthredirect",
-      "authorization_endpoint": "https://esignet-140.qa-inji.mosip.net/authorize",
-      "authorization_audience": "https://esignet-140.qa-inji.mosip.net/v1/esignet/oauth/v2/token",
-      "token_endpoint": "https://${mosip.api.public.host}/residentmobileapp/get-token/Sunbird140",
-      "proxy_token_endpoint": "https://esignet-140.qa-inji.mosip.net/v1/esignet/oauth/v2/token",
-      "credential_endpoint": "https://esignet-140.qa-inji.mosip.net/v1/esignet/vci/credential",
-      "credential_type": ["VerifiableCredential", "InsuranceCredential"],
-      "credential_audience": "https://esignet-140.qa-inji.mosip.net",
-      "enabled": "false"
-    },
     {
-      "credential_issuer": "Technoforte",
+      "credential_issuer": "Mock",
       "display": [
         {
-          "name": "Technoforte Insurance Verifiable Credential",
+          "name": "Mock Identity",
           "logo": {
-            "url": "https://sunbird.org/images/sunbird-logo-new.png",
-            "alt_text": "a square logo of a Sunbird"
+            "url": "https://${mosip.api.public.host}/inji/mosip-logo.png",
+            "alt_text": "mosip-logo"
           },
-          "language": "en",
-          "title": "Download Technoforte Credentials",
-          "description": "Download credentials with your Policy Number"
-        },
-        {
-          "name": "بيانات الاعتماد التي يمكن التحقق منها للتأمين Sunbird RC",
-          "logo": {
-            "url": "https://sunbird.org/images/sunbird-logo-new.png",
-            "alt_text": "شعار مربع لطائر الشمس"
-          },
-          "language": "ar",
-          "title": "قم بتنزيل بيانات اعتماد Sunbird",
-          "description": "قم بتنزيل بيانات الاعتماد باستخدام رقم السياسة الخاص بك"
-        },
-        {
-          "name": "सनबर्ड आरसी बीमा सत्यापन योग्य क्रेडेंशियल",
-          "logo": {
-            "url": "https://sunbird.org/images/sunbird-logo-new.png",
-            "alt_text": "सनबर्ड का एक चौकोर लोगो"
-          },
-          "language": "hi",
-          "title": "सनबर्ड क्रेडेंशियल्स डाउनलोड करेंं",
-          "description": "अपने पॉलिसी नंबर के साथ क्रेडेंशियल डाउनलोड करें"
-        },
-        {
-          "name": "ಸನ್ಬರ್ಡ್ ಆರ್ಸಿ ವಿಮೆ ಪರಿಶೀಲಿಸಬಹುದಾದ ರುಜುವಾತು",
-          "logo": {
-            "url": "https://sunbird.org/images/sunbird-logo-new.png",
-            "alt_text": "ಸನ್ ಬರ್ಡ್ ನ ಚೌಕಾಕಾರದ ಲೋಗೋ"
-          },
-          "language": "kn",
-          "title": "ಸನ್ಬರ್ಡ್ ರುಜುವಾತುಗಳನ್ನು ಡೌನ್ಲೋಡ್ ಮಾಡಿ",
-          "description": "ನಿಮ್ಮ ಪಾಲಿಸಿ ಸಂಖ್ಯೆಯೊಂದಿಗೆ ರುಜುವಾತುಗಳನ್ನು ಡೌನ್ಲೋಡ್ ಮಾಡಿ"
-        },
-        {
-          "name": "Sunbird RC இன்சூரன்ஸ் சரிபார்க்கக்கூடிய நற்சான்றிதழ்",
-          "logo": {
-            "url": "https://sunbird.org/images/sunbird-logo-new.png",
-            "alt_text": "சூரிய பறவையின் சதுர சின்னம்"
-          },
-          "language": "ta",
-          "title": "Sunbird சான்றுகளைப் பதிவிறக்கவும்",
-          "description": "உங்கள் பாலிசி எண்ணுடன் நற்சான்றிதழ்களைப் பதிவிறக்கவும்"
-        },
-        {
-          "name": "Kredensyal na Nabe-verify ng Sunbird RC Insurance",
-          "logo": {
-            "url": "https://sunbird.org/images/sunbird-logo-new.png",
-            "alt_text": "isang parisukat na logo ng isang Sunbird"
-          },
-          "language": "fil",
-          "title": "I-download ang Mga Kredensyal ng Sunbird",
-          "description": "Mag-download ng mga kredensyal gamit ang iyong Numero ng Patakaran"
+          "title": "Mock Identity",
+          "description": "Download Mock Identity Credential",
+          "language": "en"
         }
       ],
       "protocol": "OpenId4VCI",
-      "client_id": "${mimoto.oidc.sunbird.partner.clientid}",
-      "client_alias": "esignet-sunbird-partner",
-      "scopes_supported": ["sunbird_rc_insurance_vc_ldp"],
-      "additional_headers": { "Accept": "application/json" },
-      ".well-known": "https://${mosip.esignet.insurance.host}/.well-known/openid-credential-issuer?version=v11",
+      "client_id": "${mimoto.oidc.mock.partner.clientid}",
+      "client_alias": "mpartner-mock-testing",
+      "wellknown_endpoint": "https://${mosip.injicertify.mock.host}/v1/certify/issuance/.well-known/openid-credential-issuer",
       "redirect_uri": "io.mosip.residentapp.inji://oauthredirect",
-      "authorization_endpoint": "https://${mosip.esignet.insurance.host}/authorize",
-      "authorization_audience": "https://${mosip.esignet.insurance.host}/v1/esignet/oauth/v2/token",
-      "token_endpoint": "https://${mosip.api.public.host}/residentmobileapp/get-token/Technoforte",
-      "proxy_token_endpoint": "https://${mosip.esignet.insurance.host}/v1/esignet/oauth/v2/token",
-      "credential_endpoint": "https://${mosip.esignet.insurance.host}/v1/esignet/vci/credential",
-      "credential_type": ["VerifiableCredential", "InsuranceCredential"],
-      "credential_audience": "https://${mosip.esignet.insurance.host}",
+      "authorization_audience": "https://${mosip.esignet.mock.host}/v1/esignet/oauth/v2/token",
+      "token_endpoint": "https://${mosip.api.public.host}/v1/mimoto/get-token/Mock",
+      "proxy_token_endpoint": "https://${mosip.esignet.mock.host}/v1/esignet/oauth/v2/token",
+      "qr_code_type": "OnlineSharing",
       "enabled": "true"
     }
   ]

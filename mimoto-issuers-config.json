@@ -72,7 +72,7 @@
     {
       "issuer_id": "Mosip",
       "credential_issuer": "Mosip",
-      "credential_issuer_host": "https://${mosip.injicertify.host}",
+      "credential_issuer_host": "https://${mosip.injicertify.mosipid.host}",
       "display": [
         {
           "name": "National Identity Department",
@@ -136,9 +136,9 @@
         }
       ],
       "protocol": "OpenId4VCI",
-      "client_id": "${mimoto.oidc.partner.clientid}",
+      "client_id": "${mimoto.oidc.mosipid.partner.clientid}",
       "client_alias": "mpartner-default-mimoto-mosipid-oidc",
-      "wellknown_endpoint": "https://${mosip.injicertify.host}/v1/certify/issuance/.well-known/openid-credential-issuer",
+      "wellknown_endpoint": "https://${mosip.injicertify.mosipid.host}/v1/certify/issuance/.well-known/openid-credential-issuer",
       "redirect_uri": "io.mosip.residentapp.inji://oauthredirect",
       "token_endpoint": "https://${mosip.api.public.host}/v1/mimoto/get-token/Mosip",
       "authorization_audience": "https://${mosipid.identity.esignet.host}/v1/esignet/oauth/v2/token",
@@ -203,7 +203,7 @@
     {
       "issuer_id": "MosipTAN",
       "credential_issuer": "MosipTAN",
-      "credential_issuer_host": "https://injicertify-tan.mosdemo.idencode.link/v1/certify/issuance",
+      "credential_issuer_host": "https://injicertify-tan.dev2.mosip.net/v1/certify/issuance",
       "display": [
         {
           "name": "Veridonia Income Tax Department",
@@ -267,13 +267,13 @@
         }
       ],
       "protocol": "OpenId4VCI",
-      "client_id": "${mimoto.oidc.partner.collab.clientid}",
-      "client_alias": "mpartner-default-mimoto-oidc-client",
-      "wellknown_endpoint": "https://injicertify-tan.mosdemo.idencode.link/v1/certify/issuance/.well-known/openid-credential-issuer",
+      "client_id": "${mimoto.oidc.mosipid.partner.collab.clientid}",
+      "client_alias": "mpartner-default-mimoto-mosipid-oidc-client",
+      "wellknown_endpoint": "https://injicertify-tan.dev2.mosip.net/v1/certify/issuance/.well-known/openid-credential-issuer",
       "redirect_uri": "io.mosip.residentapp.inji://oauthredirect",
       "token_endpoint": "https://${mosip.api.public.host}/v1/mimoto/get-token/MosipTAN",
-      "authorization_audience": "https://${mosipid.identity.esignet.mosdemo.host}/v1/esignet/oauth/v2/token",
-      "proxy_token_endpoint": "https://${mosipid.identity.esignet.mosdemo.host}/v1/esignet/oauth/v2/token",
+      "authorization_audience": "https://${mosipid.identity.esignet.collab.host}/v1/esignet/oauth/v2/token",
+      "proxy_token_endpoint": "https://${mosipid.identity.esignet.collab.host}/v1/esignet/oauth/v2/token",
       "qr_code_type": "EmbeddedVC",
       "enabled": "true"
     },

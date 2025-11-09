@@ -9,7 +9,8 @@
         "hin": "नाम",
         "tam": "பெயர்",
         "kan": "ಹೆಸರು",
-        "spa": "Nombre"
+        "spa": "Nombre",
+        "bur": "နာမည်"
       },
       "placeHolder": {
         "eng": "Enter new name",
@@ -18,7 +19,8 @@
         "hin": "नया नाम दर्ज करें",
         "tam": "புதிய பெயரை உள்ளிடவும்",
         "kan": "ಹೊಸ ಹೆಸರನ್ನು ನಮೂದಿಸಿ",
-        "spa": "Introduce un nuevo nombre"
+        "spa": "Introduce un nuevo nombre",
+        "bur": "နာမည်အသစ်ထည့်ပါ"
       },
       "description": "",
       "labelName": {
@@ -49,6 +51,10 @@
         "spa": [
           "Nombre actual",
           "Nuevo nombre"
+        ],
+        "bur": [
+          "လက်ရှိနာမည်",
+          "နာမည်အသစ်"
         ]
       },
       "controlType": "textbox",
@@ -64,7 +70,8 @@
         "hin": "DOB",
         "tam": "DOB",
         "kan": "DOB",
-        "spa": "DOB"
+        "spa": "DOB",
+        "bur": "မွေးသက္ကရာဇ်"
       },
       "placeHolder": {
         "eng": "DOB",
@@ -73,7 +80,8 @@
         "hin": "DOB",
         "tam": "DOB",
         "kan": "DOB",
-        "spa": "DOB"
+        "spa": "DOB",
+        "bur": "မွေးသက္ကရာဇ်"
       },
       "description": "",
       "labelName": {
@@ -104,6 +112,10 @@
         "spa": [
           "Fecha de nacimiento actual",
           "nuevo nacimiento"
+        ],
+        "bur": [
+          "လက်ရှိမွေးသက္ကရာဇ်",
+          "မွေးသက္ကရာဇ်အသစ်"
         ]
       },
       "controlType": "calendar",
@@ -119,7 +131,8 @@
         "hin": "लिंग",
         "tam": "பாலினம்",
         "kan": "ಲಿಂಗ",
-        "spa": "Género"
+        "spa": "Género",
+        "bur": "လိင်"
       },
       "placeHolder": {
         "eng": "Enter gender",
@@ -128,7 +141,8 @@
         "hin": "लिंग दर्ज करें",
         "tam": "பாலினத்தை உள்ளிடவும்",
         "kan": "ಲಿಂಗವನ್ನು ನಮೂದಿಸಿ",
-        "spa": "Introduce el género"
+        "spa": "Introduce el género",
+        "bur": "လိင်ထည့်ပါ"
       },
       "description": "",
       "labelName": {
@@ -159,6 +173,10 @@
         "spa": [
           "Género actual",
           "Nuevo género"
+        ],
+        "bur": [
+          "လက်ရှိလိင်",
+          "လိင်အသစ်"
         ]
       },
       "controlType": "dropdown",
@@ -174,7 +192,8 @@
         "hin": "सबूत की पहचान",
         "tam": "அடையாள சான்று",
         "kan": "ಗುರುತಿನ ಆಧಾರ",
-        "spa": "Prueba de identidad"
+        "spa": "Prueba de identidad",
+        "bur": "ကိုယ်ရေးအထောက်အထား"
       },
       "placeHolder": {
         "eng": "Proof Of Identity",
@@ -183,7 +202,8 @@
         "hin": "सबूत की पहचान",
         "tam": "அடையாள சான்று",
         "kan": "ಗುರುತಿನ ಆಧಾರ",
-        "spa": "Prueba de identidad"
+        "spa": "Prueba de identidad",
+        "bur": "ကိုယ်ရေးအထောက်အထား"
       },
       "description": "",
       "labelName": {
@@ -242,6 +262,14 @@
           "Prueba de Documento",
           "Tipos de archivos permitidos: pdf, jpeg, png, jpg",
           "Tamaño de archivo permitido: 2 MB"
+        ],
+        "bur": [
+          "ကိုယ်ရေးအထောက်အထား",
+          "စာရွက်စာတမ်း အမျိုးအစား",
+          "စာရွက်စာတမ်း ကိုးကားနံပါတ်",
+          "စာရွက်စာတမ်း အထောက်အထား",
+          "ခွင့်ပြုထားသောဖိုင်အမျိုးအစားများ: pdf, jpeg, png, jpg",
+          "ခွင့်ပြုထားသောဖိုင်အရွယ်အစား: 2 MB"
         ]
       },
       "controlType": "fileupload",
@@ -257,7 +285,8 @@
         "hin": "पता पंक्ति 1",
         "tam": "முகவரி வரி 1",
         "kan": "ವಿಳಾಸ ಸಾಲು 1",
-        "spa": "Dirección Línea 1"
+        "spa": "Dirección Línea 1",
+        "bur": "လိပ်စာလိုင်း ၁"
       },
       "placeHolder": {
         "eng": "Enter Address line1",
@@ -266,7 +295,8 @@
         "hin": "पता पंक्ति 1 दर्ज करें",
         "tam": "முகவரி வரி 1 ஐ உள்ளிடவும்",
         "kan": "ವಿಳಾಸ ಸಾಲು 1 ಅನ್ನು ನಮೂದಿಸಿ",
-        "spa": "Introducir dirección línea 1"
+        "spa": "Introducir dirección línea 1",
+        "bur": "လိပ်စာလိုင်း ၁ ထည့်ပါ"
       },
       "description": "",
       "labelName": {
@@ -297,6 +327,10 @@
         "spa": [
           "Línea 1 de dirección actual",
           "Nueva línea de dirección 1"
+        ],
+        "bur": [
+          "လက်ရှိလိပ်စာလိုင်း ၁",
+          "လိပ်စာလိုင်း ၁ အသစ်"
         ]
       },
       "controlType": "textbox",
@@ -312,7 +346,8 @@
         "hin": "पता पंक्ति 2",
         "tam": "முகவரி வரி 2",
         "kan": "ವಿಳಾಸ ಸಾಲು 2",
-        "spa": "Dirección Línea 2"
+        "spa": "Dirección Línea 2",
+        "bur": "လိပ်စာလိုင်း ၂"
       },
       "placeHolder": {
         "eng": "Enter Address line2",
@@ -321,7 +356,8 @@
         "hin": "पता पंक्ति 2 दर्ज करें",
         "tam": "முகவரி வரி 2 ஐ உள்ளிடவும்",
         "kan": "ವಿಳಾಸ ಸಾಲು 2 ಅನ್ನು ನಮೂದಿಸಿ",
-        "spa": "Introducir dirección línea 2"
+        "spa": "Introducir dirección línea 2",
+        "bur": "လိပ်စာလိုင်း ၂ ထည့်ပါ"
       },
       "description": "",
       "labelName": {
@@ -352,6 +388,10 @@
         "spa": [
           "Línea 2 de dirección actual",
           "Nueva línea de dirección 2"
+        ],
+        "bur": [
+          "လက်ရှိလိပ်စာလိုင်း ၂",
+          "လိပ်စာလိုင်း ၂ အသစ်"
         ]
       },
       "controlType": "textbox",
@@ -367,7 +407,8 @@
         "hin": "पता पंक्ति 3",
         "tam": "முகவரி வரி 3",
         "kan": "ವಿಳಾಸ ಸಾಲು 3",
-        "spa": "Dirección Línea 3"
+        "spa": "Dirección Línea 3",
+        "bur": "လိပ်စာလိုင်း ၃"
       },
       "placeHolder": {
         "eng": "Enter Address line3",
@@ -376,7 +417,8 @@
         "hin": "पता पंक्ति 3 दर्ज करें",
         "tam": "முகவரி வரி 3 ஐ உள்ளிடவும்",
         "kan": "ವಿಳಾಸ ಸಾಲು 3 ಅನ್ನು ನಮೂದಿಸಿ",
-        "spa": "Introducir dirección línea 3"
+        "spa": "Introducir dirección línea 3",
+        "bur": "လိပ်စာလိုင်း ၃ ထည့်ပါ"
       },
       "description": "",
       "labelName": {
@@ -407,6 +449,10 @@
         "spa": [
           "Línea 3 de dirección actual",
           "Nueva línea de dirección 3"
+        ],
+        "bur": [
+          "လက်ရှိလိပ်စာလိုင်း ၃",
+          "လိပ်စာလိုင်း ၃ အသစ်"
         ]
       },
       "controlType": "textbox",
@@ -422,7 +468,8 @@
         "hin": "क्षेत्र",
         "tam": "பிராந்தியம்",
         "kan": "ಪ್ರದೇಶ",
-        "spa": "Región"
+        "spa": "Región",
+        "bur": "တိုင်းဒေသကြီး"
       },
       "placeHolder": {
         "eng": "Select Region",
@@ -431,7 +478,8 @@
         "hin": "प्रदेश का चयन करें",
         "tam": "பகுதியை உள்ளிடவும்",
         "kan": "ಪ್ರದೇಶವನ್ನು ಆಯ್ಕೆಮಾಡಿ",
-        "spa": "Seleccione la región"
+        "spa": "Seleccione la región",
+        "bur": "တိုင်းဒေသကြီး ရွေးပါ"
       },
       "name": "Region",
       "description": "",
@@ -463,6 +511,10 @@
         "spa": [
           "Región Actual",
           "Nueva Región"
+        ],
+        "bur": [
+          "လက်ရှိတိုင်းဒေသကြီး",
+          "တိုင်းဒေသကြီးအသစ်"
         ]
       },
       "controlType": "dropdown",
@@ -479,7 +531,8 @@
         "hin": "प्रांत",
         "tam": "மாகாணம்",
         "kan": "ಪ್ರಾಂತ್ಯ",
-        "spa": "Provincia"
+        "spa": "Provincia",
+        "bur": "ပြည်နယ်"
       },
       "placeHolder": {
         "eng": "Select Province",
@@ -488,7 +541,8 @@
         "hin": "प्रांत चुनें",
         "tam": "ஒரு மாகாணத்தைத் தேர்ந்தெடுக்கவும்",
         "kan": "ಒಂದು ಪ್ರಾಂತ್ಯವನ್ನು ಆಯ್ಕೆಮಾಡಿ",
-        "spa": "Seleccione una provincia"
+        "spa": "Seleccione una provincia",
+        "bur": "ပြည်နယ် ရွေးပါ"
       },
       "name": "Province",
       "description": "",
@@ -520,6 +574,10 @@
         "spa": [
           "Provincia Actual",
           "Nueva Provincia"
+        ],
+        "bur": [
+          "လက်ရှိပြည်နယ်",
+          "ပြည်နယ်အသစ်"
         ]
       },
       "controlType": "dropdown",
@@ -536,7 +594,8 @@
         "hin": "शहर",
         "tam": "நகரம்",
         "kan": "ನಗರ",
-        "spa": "Ciudad"
+        "spa": "Ciudad",
+        "bur": "မြို့"
       },
       "placeHolder": {
         "eng": "Select City",
@@ -545,7 +604,8 @@
         "hin": "शहर चुनें",
         "tam": "நகரத்தைத் தேர்ந்தெடுக்கவும்",
         "kan": "ನಗರವನ್ನು ಆಯ್ಕೆಮಾಡಿ",
-        "spa": "Ciudad selecta"
+        "spa": "Ciudad selecta",
+        "bur": "မြို့ ရွေးပါ"
       },
       "name": "City",
       "description": "",
@@ -577,6 +637,10 @@
         "spa": [
           "Ciudad Actual",
           "Ciudad Nueva"
+        ],
+        "bur": [
+          "လက်ရှိမြို့",
+          "မြို့အသစ်"
         ]
       },
       "controlType": "dropdown",
@@ -593,7 +657,8 @@
         "hin": "क्षेत्र",
         "tam": "மண்டலம்",
         "kan": "ವಲಯ",
-        "spa": "Zona"
+        "spa": "Zona",
+        "bur": "ဇုန်"
       },
       "placeHolder": {
         "eng": "Select Zone",
@@ -602,7 +667,8 @@
         "hin": "जोन चुनें",
         "tam": "மண்டலத்தைத் தேர்ந்தெடுக்கவும்",
         "kan": "ವಲಯವನ್ನು ನಮೂದಿಸಿ",
-        "spa": "Seleccione una zona"
+        "spa": "Seleccione una zona",
+        "bur": "ဇုန် ရွေးပါ"
       },
       "name": "Zone",
       "description": "",
@@ -634,6 +700,10 @@
         "spa": [
           "Zona Actual",
           "Nueva Zona"
+        ],
+        "bur": [
+          "လက်ရှိဇုန်",
+          "ဇုန်အသစ်"
         ]
       },
       "controlType": "dropdown",
@@ -650,7 +720,8 @@
         "hin": "डाक कोड",
         "tam": "குறியீடு",
         "kan": "ಕೋಡ್",
-        "spa": "Código Postal"
+        "spa": "Código Postal",
+        "bur": "စာပို့ကုဒ်"
       },
       "placeHolder": {
         "eng": "Select Postal Code",
@@ -659,7 +730,8 @@
         "hin": "पोस्टल कोड चुनें",
         "tam": "அஞ்சல் குறியீட்டைத் தேர்ந்தெடுக்கவும்",
         "kan": "ಪೋಸ್ಟಲ್ ಕೋಡ್ ಆಯ್ಕೆಮಾಡಿ",
-        "spa": "Seleccione Código Postal"
+        "spa": "Seleccione Código Postal",
+        "bur": "စာပို့ကုဒ် ရွေးပါ"
       },
       "name": "Postal Code",
       "description": "",
@@ -691,6 +763,10 @@
         "spa": [
           "Código Postal Actual",
           "Nuevo código postal"
+        ],
+        "bur": [
+          "လက်ရှိစာပို့ကုဒ်",
+          "စာပို့ကုဒ်အသစ်"
         ]
       },
       "controlType": "dropdown",
@@ -707,7 +783,8 @@
         "hin": "पते का प्रमाण",
         "tam": "முகவரி சான்று",
         "kan": "ವಿಳಾಸದ ಪುರಾವೆ",
-        "spa": "Comprobante de domicilio"
+        "spa": "Comprobante de domicilio",
+        "bur": "လိပ်စာအထောက်အထား"
       },
       "placeHolder": {
         "eng": "Proof Of Address",
@@ -716,7 +793,8 @@
         "hin": "पते का प्रमाण",
         "tam": "முகவரி சான்று",
         "kan": "ವಿಳಾಸದ ಪುರಾವೆ",
-        "spa": "Comprobante de domicilio"
+        "spa": "Comprobante de domicilio",
+        "bur": "လိပ်စာအထောက်အထား"
       },
       "description": "",
       "labelName": {
@@ -775,6 +853,14 @@
           "Prueba de Documento",
           "Tipos de archivos permitidos: pdf, jpeg, png, jpg",
           "Tamaño de archivo permitido: 2 MB"
+        ],
+        "bur": [
+          "လိပ်စာအထောက်အထား",
+          "စာရွက်စာတမ်း အမျိုးအစား",
+          "စာရွက်စာတမ်း ကိုးကားနံပါတ်",
+          "စာရွက်စာတမ်း အထောက်အထား",
+          "ခွင့်ပြုထားသောဖိုင်အမျိုးအစားများ: pdf, jpeg, png, jpg",
+          "ခွင့်ပြုထားသောဖိုင်အရွယ်အစား: 2 MB"
         ]
       },
       "controlType": "fileupload",
@@ -790,7 +876,8 @@
         "hin": "ईमेल ID",
         "tam": "மின்னஞ்சல் முகவரி",
         "kan": "ಇಮೇಲ್ ID",
-        "spa": "Identificación de correo"
+        "spa": "Identificación de correo",
+        "bur": "အီးမေးလ်အိုင်ဒီ"
       },
       "placeHolder": {
         "eng": "Enter email ID",
@@ -798,8 +885,9 @@
         "fra": "Entrez l'identifiant de messagerie",
         "hin": "ईमेल ID दर्ज करें",
         "tam": "மின்னஞ்சல் ID-ஐ உள்ளிடவும்",
-        "kan": "ಇಮೇಲ್ ID ನಮೂದಿಸಿ",
-        "spa": "Ingrese su ID de correo electrónico"
+        "kan": "ಇಮೇಲ್ ID နಮೂದಿಸಿ",
+        "spa": "Ingrese su ID de correo electrónico",
+        "bur": "အီးမေးလ်အိုင်ဒီထည့်ပါ"
       },
       "description": "",
       "labelName": {
@@ -844,6 +932,12 @@
           "Nueva identificación de correo electrónico",
           "Confirmar nuevo ID de correo electrónico",
           "Enviar OTP"
+        ],
+        "bur": [
+          "လက်ရှိအီးမေးလ်အိုင်ဒီ",
+          "အီးမေးလ်အိုင်ဒီအသစ်",
+          "အီးမေးလ်အိုင်ဒီအသစ်ကို အတည်ပြုပါ",
+          "OTP ပို့ပါ"
         ]
       },
       "controlType": "textbox",
@@ -859,7 +953,8 @@
         "hin": "फ़ोन नंबर",
         "tam": "தொலைபேசி எண்",
         "kan": "ದೂರವಾಣಿ ಸಂಖ್ಯೆ",
-        "spa": "Número de teléfono"
+        "spa": "Número de teléfono",
+        "bur": "ဖုန်းနံပါတ်"
       },
       "placeHolder": {
         "eng": "Enter Phone Number",
@@ -867,8 +962,9 @@
         "fra": "Entrez le numéro de téléphone",
         "hin": "फोन नंबर दर्ज",
         "tam": "தொலைபேசி எண்ணை உள்ளிடவும்",
-        "kan": "ಫೋನ್ ಸಂಖ್ಯೆಯನ್ನು ನಮೂದಿಸಿ",
-        "spa": "Ingresa número telefónico"
+        "kan": "ဖೋನ್ ಸಂಖ್ಯೆಯನ್ನು ನಮೂದಿಸಿ",
+        "spa": "Ingresa número telefónico",
+        "bur": "ဖုန်းနံပါတ်ထည့်ပါ"
       },
       "description": "",
       "labelName": {
@@ -913,6 +1009,12 @@
           "Nuevo número de teléfono",
           "Confirmar nuevo número de teléfono",
           "Enviar OTP"
+        ],
+        "bur": [
+          "လက်ရှိဖုန်းနံပါတ်",
+          "ဖုန်းနံပါတ်အသစ်",
+          "ဖုန်းနံပါတ်အသစ်ကို အတည်ပြုပါ",
+          "OTP ပို့ပါ"
         ]
       },
       "controlType": "textbox",
@@ -928,7 +1030,8 @@
         "hin": "पसंदीदा भाषा",
         "tam": "விருப்ப மொழி",
         "kan": "ಆದ್ಯತೆಯ ಭಾಷೆ",
-        "spa": "Idioma preferido"
+        "spa": "Idioma preferido",
+        "bur": "နှစ်သက်ရာဘာသာစကား"
       },
       "placeHolder": {
         "eng": "Select Preferred Language",
@@ -937,7 +1040,8 @@
         "hin": "पसंदीदा भाषा चुनें",
         "tam": "விருப்ப மொழியைத் தேர்ந்தெடுக்கவும்.",
         "kan": "ಆಯ್ಕೆಯಾದ ಭಾಷೆಯನ್ನು ಆಯ್ಕೆಮಾಡಿ.",
-        "spa": "Seleccionar Idioma Preferido"
+        "spa": "Seleccionar Idioma Preferido",
+        "bur": "နှစ်သက်ရာဘာသာစကား ရွေးပါ"
       },
       "description": "",
       "labelName": {
@@ -968,6 +1072,10 @@
         "spa": [
           "Idioma de notificación actual",
           "Nuevo idioma de notificación"
+        ],
+        "bur": [
+          "လက်ရှိအကြောင်းကြားစာ ဘာသာစကား",
+          "အကြောင်းကြားစာ ဘာသာစကားအသစ်"
         ]
       },
       "controlType": "dropdown",

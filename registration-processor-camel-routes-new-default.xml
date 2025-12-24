@@ -368,13 +368,6 @@
             <jsonpath suppressExceptions="true">$.[?(@['messageBusAddress']['address'] == 'manual-adjudication-bus-in')]</jsonpath>
             <to uri="eventbus://manual-adjudication-bus-in" />
          </when>
-		 <when>
-             <jsonpath suppressExceptions="true">$.[?(@['UID'] != null &amp;&amp; @['UID'] != '')]</jsonpath>
-             <log message="Data Migration: UID found, skipping UIN Generation. Routing to Biometric Extraction."/>
-             <to uri="eventbus://biometric-extraction-bus-in" />
-             <!-- Including anonymous-profile to match the behavior of the bypassed route -->
-             <to uri="workflow-cmd://anonymous-profile" />
-         </when>
          <otherwise>
             <to uri="eventbus://uin-generator-bus-in" />
          </otherwise>
@@ -397,13 +390,6 @@
             <jsonpath>$.[?(@['isValid'] == false &amp;&amp; @['internalError'] == false)]</jsonpath>
             <to uri="workflow-cmd://complete-as-failed" />
             <to uri="workflow-cmd://anonymous-profile" />
-         </when>
-		 <when>
-             <jsonpath suppressExceptions="true">$.[?(@['UID'] != null &amp;&amp; @['UID'] != '')]</jsonpath>
-             <log message="Data Migration: UID found, skipping UIN Generation. Routing to Biometric Extraction."/>
-             <to uri="eventbus://biometric-extraction-bus-in" />
-             <!-- Including anonymous-profile to match the behavior of the bypassed route -->
-             <to uri="workflow-cmd://anonymous-profile" />
          </when>
          <otherwise>
             <to uri="eventbus://uin-generator-bus-in" />
@@ -450,13 +436,6 @@
             <jsonpath>$.[?(@['isValid'] == false &amp;&amp; @['internalError'] == false)]</jsonpath>
             <to uri="workflow-cmd://complete-as-rejected" />
             <to uri="workflow-cmd://anonymous-profile" />
-         </when>
-		 <when>
-             <jsonpath suppressExceptions="true">$.[?(@['UID'] != null &amp;&amp; @['UID'] != '')]</jsonpath>
-             <log message="Data Migration: UID found, skipping UIN Generation. Routing to Biometric Extraction."/>
-             <to uri="eventbus://biometric-extraction-bus-in" />
-             <!-- Including anonymous-profile to match the behavior of the bypassed route -->
-             <to uri="workflow-cmd://anonymous-profile" />
          </when>
          <otherwise>
             <to uri="eventbus://uin-generator-bus-in" />

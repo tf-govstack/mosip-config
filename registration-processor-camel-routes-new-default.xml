@@ -269,7 +269,7 @@
 	<!-- skipping bio dedupe  -->
    <!-- <route id="demo-dedupe bio-dedupe new route">
       <from uri="eventbus://demo-dedupe-new-bus-out" />
-      <log message="demo-dedupe-->bio-dedupe new route ${bodyAs(String)}" />
+      <log message="demo-dedupe bio-dedupe new route ${bodyAs(String)}" />
       <choice>
          <when>
             <jsonpath>$.[?(@['isValid'] == false &amp;&amp; @['internalError'] == true)]</jsonpath>
@@ -342,7 +342,7 @@
 	<!-- skipping bio dedupe  -->
    <!-- <route id="bio-dedupe uin-generation new route">
       <from uri="eventbus://bio-dedupe-new-bus-out" />
-      <log message="bio-dedupe-->uin-generation new route ${bodyAs(String)}" />
+      <log message="bio-dedupe uin-generation new route ${bodyAs(String)}" />
       <choice>
         <when>
             <jsonpath>$.[?(@['isValid'] == false &amp;&amp; @['internalError'] == true)]</jsonpath>

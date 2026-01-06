@@ -378,7 +378,7 @@
    </route> -->
 	<!-- skipping bio dedupe  -->
    <route id="quality-classifier-->uin-generation new route">
-      <from uri="eventbus://demo-dedupe-new-bus-out" />
+      <from uri="eventbus://quality-classifier-new-bus-out" />
       <log message="quality-classifier--> uin-generation new route ${bodyAs(String)}" />
       <choice>
         <when>

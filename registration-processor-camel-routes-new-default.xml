@@ -225,9 +225,10 @@
          </otherwise>
       </choice>
    </route>
-   <route id="quality-classifier-->demo-dedupe new route">
+	<!-- Skipping demo-dedupe  -->
+   <!-- <route id="quality-classifier->demo-dedupe new route">
       <from uri="eventbus://quality-classifier-new-bus-out" />
-      <log message="quality-classifier-->demo-dedupe new route ${bodyAs(String)}" />
+      <log message="quality-classifier->demo-dedupe new route ${bodyAs(String)}" />
       <choice>
          <when>
             <jsonpath>$.[?(@['isValid'] == false &amp;&amp; @['internalError'] == true)]</jsonpath>
@@ -252,7 +253,7 @@
          <when>
             <jsonpath suppressExceptions="true">$.[?(@['tags']['Biometric_Quality-Iris'] in ['level-1','level-2','level-3','level-4','level-5','level-6','level-7','level-8','level-9','level-10','--Biometrics-Not-Available--'] &amp;&amp; @['tags']['Biometric_Quality-Finger'] in ['level-1','level-2','level-3','level-4','level-5','level-6','level-7','level-8','level-9','level-10','--Biometrics-Not-Available--'] &amp;&amp; @['tags']['Biometric_Quality-Face'] in ['level-1','level-2','level-3','level-4','level-5','level-6','level-7','level-8','level-9','level-10','--Biometrics-Not-Available--'])]</jsonpath>
             <to uri="eventbus://demo-dedupe-bus-in" />
-         </when>
+         </when> -->
 <!--         <when>-->
 <!--            <jsonpath suppressExceptions="true">$.[?(@['tags']['Biometric_Quality-Iris'] in ['level-0','level-0','level-0'] || @['tags']['Biometric_Quality-Finger'] in ['level-0','level-0','level-0'] || @['tags']['Biometric_Quality-Face'] in ['level-0','level-0','level-0'])]</jsonpath>-->
 <!--            <setProperty propertyName="ADDITIONAL_INFO_PROCESS"><constant>BIOMETRIC_CORRECTION</constant></setProperty>-->
@@ -260,12 +261,12 @@
 <!--            <setProperty propertyName="PAUSE_FOR"><constant>1296000</constant></setProperty>-->
 <!--            <to uri="workflow-cmd://pause-and-request-additional-info" />-->
 <!--         </when>-->
-         <otherwise>
+         <!-- <otherwise>
             <to uri="workflow-cmd://complete-as-failed" />
             <to uri="workflow-cmd://anonymous-profile" />
          </otherwise>
       </choice>
-   </route>
+   </route> -->
 	<!-- skipping bio dedupe  -->
    <!-- <route id="demo-dedupe bio-dedupe new route">
       <from uri="eventbus://demo-dedupe-new-bus-out" />
@@ -376,9 +377,9 @@
       </choice>
    </route> -->
 	<!-- skipping bio dedupe  -->
-   <route id="demo-dedupe-->uin-generation new route">
+   <route id="quality-classifier-->uin-generation new route">
       <from uri="eventbus://demo-dedupe-new-bus-out" />
-      <log message="demo-dedupe--> uin-generation new route ${bodyAs(String)}" />
+      <log message="quality-classifier--> uin-generation new route ${bodyAs(String)}" />
       <choice>
         <when>
             <jsonpath>$.[?(@['isValid'] == false &amp;&amp; @['internalError'] == true)]</jsonpath>

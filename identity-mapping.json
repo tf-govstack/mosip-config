@@ -48,6 +48,9 @@
 		"vid": {
 			"value": "VID"
 		},
+		"uid": {
+      		"value": "UID"
+		},
 		"individualBiometrics": {
 			"value": "individualBiometrics"
 		},

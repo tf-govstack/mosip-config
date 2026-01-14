@@ -70,7 +70,7 @@
         {
             "issuer_id": "Mosip",
             "credential_issuer": "Mosip",
-            "credential_issuer_host": "https://${mosip.injicertify.host}",
+            "credential_issuer_host": "https://${mosip.injicertify.host}/v1/certify/issuance",
             "display": [
                 {
                     "name": "Veridonia National ID Department",
@@ -159,7 +159,7 @@
         {
             "issuer_id": "StayProtected",
             "credential_issuer": "StayProtected",
-            "credential_issuer_host": "https://${mosip.injicertify.insurance.host}",
+            "credential_issuer_host": "https://${mosip.injicertify.insurance.host}/v1/certify/issuance",
             "display": [
                 {
                     "name": "StayProtected Insurance",

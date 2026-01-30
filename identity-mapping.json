@@ -164,7 +164,19 @@
 		},
 		"poe": {
 			"value": "proofOfException"
-		}
+		},
+        "nrcf": {
+            "value": "nrcCardFront"
+        },
+        "nrcb": {
+            "value": "nrcCardBack"
+        },
+        "hhdf": {
+            "value": "householdDocFront"
+        },
+        "hhdb": {
+            "value": "householdDocBack"
+        }
 	},
 	"attributeUpdateCountLimit": {
 		"fullName": 2,

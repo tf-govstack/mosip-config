@@ -250,7 +250,7 @@
             <to uri="workflow-cmd://pause-and-request-additional-info" />
          </when>
          <when>
-            <jsonpath suppressExceptions="true">$.[?(@['tags']['Biometric_Quality-Iris'] in ['level-1','level-2','level-3','level-4','level-5','level-6','level-7','level-8','level-9','level-10','Biometrics-Not-Available'] &amp;&amp; @['tags']['Biometric_Quality-Finger'] in ['level-1','level-2','level-3','level-4','level-5','level-6','level-7','level-8','level-9','level-10','Biometrics-Not-Available'] &amp;&amp; @['tags']['Biometric_Quality-Face'] in ['level-1','level-2','level-3','level-4','level-5','level-6','level-7','level-8','level-9','level-10','Biometrics-Not-Available'])]</jsonpath>
+            <jsonpath suppressExceptions="true">$.[?(@['tags']['Biometric_Quality-Iris'] in ['level-1','level-2','level-3','level-4','level-5','level-6','level-7','level-8','level-9','level-10','--Biometrics-Not-Available--'] &amp;&amp; @['tags']['Biometric_Quality-Finger'] in ['level-1','level-2','level-3','level-4','level-5','level-6','level-7','level-8','level-9','level-10','--Biometrics-Not-Available--'] &amp;&amp; @['tags']['Biometric_Quality-Face'] in ['level-1','level-2','level-3','level-4','level-5','level-6','level-7','level-8','level-9','level-10','--Biometrics-Not-Available--'])]</jsonpath>
             <to uri="eventbus://demo-dedupe-bus-in" />
          </when>
          <when>
